@@ -1,44 +1,43 @@
 import java.util.Scanner;
 public class seminar1HW {
     public static void main(String[] args) {
-        Scanner scan_line = new Scanner(System.in);
-
-        
-        while (true) {
-            System.out.print("\nWhich task to start (1, 2, 3 or 4, press any to stop): ");
-            String task = scan_line.next();
-            switch (task) {
-                case "1" -> {
-                    System.out.print("TASK 1:");
-                    System.out.print("\nEnter num N: ");
-                    int N = scan_line.nextInt();
-                    task_01(N);
+        try (Scanner scan_line = new Scanner(System.in)) {
+            while (true) {
+                System.out.print("\nWhich task to start (1, 2, 3 or 4, press any to stop): ");
+                String task = scan_line.next();
+                switch (task) {
+                    case "1" -> {
+                        System.out.print("TASK 1:");
+                        System.out.print("\nEnter num N: ");
+                        int N = scan_line.nextInt();
+                        task_01(N);
+                    }
+                    case "2" -> {
+                        System.out.print("\nTASK 2:\n");
+                        task_02();
+                    }
+                    case "3" -> {
+                        System.out.println("TASK 3:");
+                        System.out.print("Enter first num: ");
+                        int num_1 = scan_line.nextInt();
+                        System.out.print("Enter operation: ");
+                        String oper = scan_line.next();
+                        System.out.print("Enter second num: ");
+                        int num_2 = scan_line.nextInt();
+                        task_03(num_1, oper, num_2);
+                    }
+                    case "4" -> {
+                        System.out.println("TASK 3:");
+                        System.out.print("Enter first num: ");
+                        int num_1 = scan_line.nextInt();
+                        System.out.print("Enter second num: ");
+                        int num_2 = scan_line.nextInt();
+                        System.out.print("Enter result: ");
+                        int num_3 = scan_line.nextInt();
+                        task_04(num_1, num_2, num_3);
+                    }
+                    default -> System.exit(0);
                 }
-                case "2" -> {
-                    System.out.print("\nTASK 2:\n");
-                    task_02();
-                }
-                case "3" -> {
-                    System.out.println("TASK 3:");
-                    System.out.print("Enter first num: ");
-                    int num_1 = scan_line.nextInt();
-                    System.out.print("Enter operation: ");
-                    String oper = scan_line.next();
-                    System.out.print("Enter second num: ");
-                    int num_2 = scan_line.nextInt();
-                    task_03(num_1, oper, num_2);
-                }
-                case "4" -> {
-                    System.out.println("TASK 3:");
-                    System.out.print("Enter first num: ");
-                    int num_1 = scan_line.nextInt();
-                    System.out.print("Enter second num: ");
-                    int num_2 = scan_line.nextInt();
-                    System.out.print("Enter result: ");
-                    int num_3 = scan_line.nextInt();
-                    task_04(num_1, num_2, num_3);
-                }
-                default -> System.exit(0);
             }
         }
     }
