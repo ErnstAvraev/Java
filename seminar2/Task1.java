@@ -31,6 +31,9 @@ public class Task1 {
             // final_string.append(char_1);
             // final_string.append(char_2);
         }
+        if (string_length%2 != 0){
+            final_string.append(char_1);
+        }
         return final_string.toString();
     }
 }

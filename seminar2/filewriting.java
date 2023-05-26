@@ -7,7 +7,6 @@ public class filewriting {
     public static void main(String[] args) {
         Integer n = 10;
         String text = "TEST";
-        String file_name = "1.txt";
         File file = new File("1.txt");
         try{
             FileWriter writer = new FileWriter(file,false); // false - файл перезапичывается, true - дописывается
