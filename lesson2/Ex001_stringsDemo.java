@@ -1,4 +1,4 @@
-package Java.lesson2;
+package lesson2;
 public class Ex001_stringsDemo {
     public static void main_(String[] args) {
         String[] name = { "C", "е", "р", "г", "е", "й" };

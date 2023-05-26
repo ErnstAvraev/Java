@@ -1,4 +1,4 @@
-package Java.lesson2;
+package lesson2;
 // import java.io.File;
 // import java.lang.System.Logger;
 // import java.util.logging.XMLFormatter;
