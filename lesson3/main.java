@@ -1,6 +1,6 @@
 package lesson3;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         Object o = 1; GetType(o);
         o = 1.2; GetType(o);
