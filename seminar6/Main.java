@@ -1,4 +1,4 @@
-package Java.seminar6;
+package seminar6;
 
 import java.lang.reflect.Field;
 import java.util.*;
@@ -106,6 +106,7 @@ public class Main {
                 System.out.print(">> ");
                 res = scan.next();
             }
+            scan.close();
         }
 
     }

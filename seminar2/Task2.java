@@ -1,4 +1,4 @@
-package Java.seminar2;
+package seminar2;
 
 // stroka = "Привет"
 // stroka1 = new String

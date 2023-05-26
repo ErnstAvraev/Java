@@ -1,4 +1,4 @@
-package Java.seminar6;
+package seminar6;
 
 import java.util.*;
 
