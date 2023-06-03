@@ -18,7 +18,7 @@ public class task2 {
         System.out.println("Среднее арифметическое число из этого списка: " + average(list));
     }
 
-    public static int min(ArrayList list) {
+    public static int min(ArrayList<Integer> list) {
         int min = 50;
         for (int i = 0; i < list.size(); i++) {
             int index = (int) list.get(i);
@@ -29,7 +29,7 @@ public class task2 {
         return min;
     }
 
-    public static int max(ArrayList list) {
+    public static int max(ArrayList<Integer> list) {
         int max = 0;
         for (int i = 0; i < list.size(); i++) {
             int index = (int) list.get(i);
@@ -40,7 +40,7 @@ public class task2 {
         return max;
     }
 
-    public static double average(ArrayList list) {
+    public static double average(ArrayList<Integer> list) {
         int sum = 0;
         for (int i = 0; i < list.size(); i++) {
             int index = (int) list.get(i);
