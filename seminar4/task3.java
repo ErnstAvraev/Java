@@ -3,11 +3,16 @@ package seminar4;
 // 1. Принимает от пользователя и "запоминает" строки.
 // 2. Если введено print, выводит строки так, чтобы последняя введенная была первой в списке, а первая последней.
 
-import java.util.Scanner;
-import java.util.Stack;
+// import java.io.BufferedReader; // для второго решения
+import java.io.IOException; // для первого решения
+// import java.io.InputStreamReader; // для второго решения
+// import java.util.Deque; // для второго решения
+// import java.util.LinkedList; // для второго решения
+import java.util.Scanner; // для первого решения
+import java.util.Stack; // для первого решения
 
 public class task3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Stack<String> heap = new Stack<>();
         Scanner input = new Scanner(System.in);
         String text = "";
@@ -24,5 +29,25 @@ public class task3 {
                 heap.push(text);
             }
         }
+    
+
+
+
+// Решение второго зала
+        // BufferedReader reader1 = new BufferedReader(new InputStreamReader(System.in));
+        // String tempIn1 = "";
+        // Deque<String> list1 = new LinkedList<>();
+        // for (int i = 0; ; i++) {
+        //     tempIn1 = reader1.readLine();
+        //     list1.add(tempIn1);
+
+        //     if (list1.getLast().equals("print")){
+        //         while(!list1.isEmpty()) {
+        //             System.out.println(list1.pollLast());
+        //         }
+        //         break;
+        //     }
+        // }
+
     }
 }
