@@ -3,9 +3,6 @@ package seminar4;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-import javax.lang.model.util.SimpleAnnotationValueVisitor9;
-import javax.sql.StatementEventListener;
-
 // Реализовать консольное приложение, которое: 
 // 1. Принимает от пользователя строку
 // 2. Сохранить text в связаный список.
