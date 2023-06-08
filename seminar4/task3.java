@@ -4,7 +4,7 @@ package seminar4;
 // 2. Если введено print, выводит строки так, чтобы последняя введенная была первой в списке, а первая последней.
 
 // import java.io.BufferedReader; // для второго решения
-import java.io.IOException; // для первого решения
+import java.io.IOException; // для второго решения
 // import java.io.InputStreamReader; // для второго решения
 // import java.util.Deque; // для второго решения
 // import java.util.LinkedList; // для второго решения
@@ -39,13 +39,13 @@ public class task3 {
         // Deque<String> list1 = new LinkedList<>();
         // for (int i = 0; ; i++) {
         //     tempIn1 = reader1.readLine();
-        //     list1.add(tempIn1);
-
-        //     if (list1.getLast().equals("print")){
+        //     if (tempIn1.equals("print")){
         //         while(!list1.isEmpty()) {
         //             System.out.println(list1.pollLast());
         //         }
         //         break;
+        //     } else {
+        //         list1.add(tempIn1);
         //     }
         // }
 
