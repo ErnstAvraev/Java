@@ -7,7 +7,7 @@ package seminar5;
 import java.util.HashMap;
 import java.util.Map;
 
-import seminar2.input;
+// import seminar2.input;
 
 // 1. повторяющиеся буквы одного слова меняются на одну и ту же букву 
 // с сохранением порядка следования. (Например, add - egg изоморфны)
