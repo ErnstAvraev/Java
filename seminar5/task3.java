@@ -17,6 +17,7 @@ public class task3 {
         System.out.println(is_valid(math2));
         System.out.println(is_right(math1));
         System.out.println(is_right(math2));
+        System.out.println(is_right("[(6+{3*3})]"));
     }
 
     public static boolean is_valid(String st) {
