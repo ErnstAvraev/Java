@@ -1,8 +1,6 @@
 package seminar6.seminar6;
 // 1. Напишите метод, который заполнит массив из 100 элементов случайными цифрами от 0 до 100.
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Random;
